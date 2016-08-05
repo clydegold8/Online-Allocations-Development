@@ -1,0 +1,97 @@
+== Changelog ==
+= Theme Name: Blackbird=
+
+= Version: 1.2.6 =
+* Support Link Button Added In WordPress Customize
+
+= Version: 1.2.5 =
+* Theme option to WordPress customizer API migration.
+
+= Version: 1.2.4 =
+* Theme check issue fixed.
+* All text domain matched with theme directory.
+* Language .pot file matched with text domain.
+* Use add_theme_support( 'title-tag' ) with after_theme_setup hook and removed title tag from header.php.
+
+= Version: 1.2.3 =
+* Changes in menu styling.
+* Translation function calls must NOT contain PHP variables, Issue fixed.
+* Possible hard-coded links were found,issue fixed.
+* Added readme.txt file
+* Text wrapped issue fixed.
+* Change screenshot.png.
+
+= Version: 1.2.2 =
+* Added slider and feature boxes
+* Miner change in style.css
+* The <title> tags can only contain a call to wp_title(). Use the wp_title filter to modify the output, issue fixed.
+* screen_icon() found in the file plugin-activation.php. Deprecated since version 3.8, issue fixed.
+
+= Version: 1.2.1 =
+* Removed front-page.php, used home.php instead.
+* All images removed which are used in front-page.php
+* Default logo removed.
+
+= Version: 1.2.0 =
+* Theme check tag error fixed.
+* Theme option radio button style issue fixed.
+* Theme option upload button style issue fixed.
+* Deprecated function ereg_replace replaced with preg_replace.
+* Removed unnecessary scripts
+* Front page configured for reading setting changes.
+
+= Version: 1.1.9 =
+* Shortcode removed from theme.
+* Theme URI fixed.
+* Plugin Activation file added.
+
+= Version: 1.1.8 =
+*. Added plugins notification for recommends plugin.
+
+= Version: 1.1.7 =
+* Undefined function blackbird() error in tag.php fixed.
+
+= Version: 1.1.6 =
+
+* Undefined index: host notice fixed.
+* getimagesize(): Read error! notice fixed.
+* Undefined variable: extension notice fixed.
+* Use of undefined constant url notice fixed.
+
+= Version: 1.1.5 =
+
+* Previous ticket required issues fixed.
+
+= Version: 1.1.4 =
+
+* Untranslated localization issue is now fixed
+
+* Improve Code quality.
+
+* Remove unnecessary text.
+
+= Version: 1.1.3 =
+
+* Undefined Index fixed.
+
+* Code optimized.
+
+* Text domain untranslated fixed.
+
+= Version: 1.1.2 =
+
+* Optimized codes.
+
+* Removed unwanted text strings.
+
+= Version: 1.1.1 =
+
+* Miner Change In Admin Css.
+
+= Version: 1.1 =
+
+* Header Html Errox Fixed.
+
+= Version: 1.0 =
+
+* Blackbird Theme is created on 9/07/2012.

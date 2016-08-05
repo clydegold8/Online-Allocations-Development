@@ -1,0 +1,404 @@
+.theme-image {
+    float: left; 
+	margin: 0; 
+	padding:0; 
+	width: 294px;
+	height: 250px;
+	margin-bottom: 15px;
+    margin-top: 3px;
+	clear: both;
+}
+.theme-desc {
+    margin: 0;
+	float: right;
+	width: 450px;
+	margin-bottom: 15px;
+}
+.theme-desc.colorway{
+	margin-bottom:-25px;
+}
+.theme-title a{
+    font-size: 18px;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: #333;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* GENERAL STYLES */
+/*-------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+    background: none;
+    border: 0;
+    clear: both;
+    display: block;
+    float: none;
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+#themesheader{
+text-align: center;
+margin: 20px 0 40px 0;
+padding-bottom: 30px;
+border-bottom: 4px double #DEDEDE;
+}
+.theme-item{
+display:inline-block;
+margin-bottom:50px;
+}
+.theme-item.colorway{
+margin-bottom:20px;
+}
+.theme_page{
+    width: 770px;
+    margin-top: 14px;
+    padding: 20px 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.inkthemes-admin-sidebar{
+width:300px;
+display:inline-block;
+}
+.theme-option{
+    float: left;
+}
+.theme-notification{
+    display: inline-block;
+    max-width: 340px;
+    width: 100%;
+    margin: 15px 0;
+}
+.postbox-container{
+    background: white;
+    padding: 1.5em;
+    background-color: white;
+    border: 1px solid #d8d8d8;
+}
+.postbox-container h3{
+    margin-top: 0;
+    line-height: 1.2em;
+}
+.notification-header{
+    height: 80px;
+    background:#dfdfdf url("../../../../wp-admin/images/gray-grad.png") repeat-x left top;
+    border: 1px solid #ccc;
+    border-top-left-radius: 6px;
+    -moz-border-radius-topleft: 6px;
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-right-radius: 6px;
+    -moz-border-radius-topright: 6px;
+}
+span.wrap{
+    margin-right: 0;
+}
+.notification-heading{
+    margin: 0;
+}
+span.wrap h2{
+    padding: 0;
+    margin: 26px 0;
+    text-align: center;
+}
+.notification-header .icon-option{
+    float: right;
+    height: 50px;
+    width: 178px;
+    background: url(images/inkthemeslogo.png) no-repeat;
+    margin: 15px 0 0;
+}
+input[type="email"],input[type="text"]{
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    padding: 10px;
+    color: #3d4142;
+    width: 100%;
+    max-width: 296px;
+	margin-bottom: 18px;
+}
+.form-container .button-primary{
+    margin: 1em 0 .5em 0;  
+}
+.horizontal-line{
+    border-bottom: 1px solid #d6d6d6;
+    margin: 18px 0;
+}
+.sell-link {
+    margin:10px;
+}
+.sell-link right{float:right;}
+.sell-link left {float:left;}
+.inkthemes_advert {
+    margin: 20px 20px 20px 0;
+    background-color: #a48868;
+    color: #fff;
+    padding-left: 15px;
+    overflow: hidden;
+    padding-top: 3px;
+    padding: 20px 0 20px 15px;
+    box-shadow: 0 0 6px rgba(0,0,0,.3);
+	width: 1140px;
+}
+.inkthemes_advert .inkthemes_block_wrapper{
+    display: inline-block;
+    width: 50%;
+    background: url(../images/sep_r.png) right no-repeat;
+}
+.inkthemes_advert .inkthemes_block_wrapper h3{
+
+    font-size: 25px;
+    margin-top: 26px;
+    color: #fff;
+}
+.inkthemes_advert .inkthemes_block{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+}
+.inkthemes_advert .block_one{
+}
+.inkthemes_advert .block_two{
+}
+.inkthemes_advert .block_three{
+}
+.inkthemes_advert .inkthemes_block.block_four{
+    width: 48%;
+    margin-right: 0;
+    text-align: center;
+}
+.inkthemes_advert .inkthemes_block.block_four img{
+    max-width: 100%;
+    margin-top: 15px;
+}
+.inkthemes_advert .inkthemes_block a {
+    margin-right:10px;
+    margin-left:5px;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #444;
+    display: inline-block;
+    padding: 10px 32px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    transition: all .3s ease;
+    webkit-box-shadow: 0 3px 0 #8d7559;
+    -moz-box-shadow: 0 3px 0 #8d7559;
+    box-shadow: 0 3px 0 #8d7559;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-demo{
+    background-color: #f8d288;
+    margin-left: 43px;
+    margin-right: 12px;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-demo:hover{
+    background-color: #FFCE4D;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-upgrade{
+    background-color: #fff;
+    color: #444;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-upgrade:hover{
+    background-color: #E5A862;
+}
+.inkthemes_advert .inkthemes_block ul li{
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    line-height: 24px;
+}
+.inkthemes_advert .inkthemes_block ul li .dashicons{
+    margin: 4px 7px 13px 0;
+    vertical-align:middle;
+    font-size:19px;
+    float: left;
+}
+.inkthemes_advert span {color: #BAF10B;}
+.btn_upsell{float:right;}
+.ui-tabs ul li .currunt,.ui-tabs ul li .active{background-color:#2B2121;} 
+/************* option header ***************/
+.inkthemes-header {
+    background-color: #31a3dd;
+    color: #fff;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(#31a3dd), to(#31a3dd));
+    background-image: -webkit-linear-gradient(top, #31a3dd, 0%, #31a3dd, 100%);
+    background-image: -moz-linear-gradient(top, #31a3dd 0%, #31a3dd 100%);
+    background-image: linear-gradient(to bottom, #31a3dd 0%, #31a3dd 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3498db', endColorstr='#ff258cd1', GradientType=0);
+    min-height: 62px;
+    padding-bottom: 15px;
+    padding-left: 0;
+    padding-right: 0;   
+    border-radius: 6px 6px 0px 0px;
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3),0px 2px 2px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3),0px 2px 2px 0px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 1px 2px 0px rgba(255,255,255,0.3),0px 2px 2px 0px rgba(0,0,0,0.2);
+    margin-bottom:30px;
+    overflow: hidden;
+}
+
+.inkthemes-header h2 span { float: left; 
+                         font-size:18px; 
+                         color:#FFF;
+                         font-size: 23px;
+                         font-weight: bold;
+                         line-height: 29px;
+                         padding-left:10px;
+                         padding-top: 3px;
+}
+.inkthemes-submenu-links{ float: right;    margin-right: 20px;  }
+/******* Option panel tabs style start ***********/
+#inkthemes_wrap  {background-color:#fff;}
+#options_tabs { width:95%; }
+#inkthemes_wrap .ui-tabs .ui-tabs-nav  {
+
+    margin-top: 0;
+    list-style: none;
+    position: relative;
+    float: left;
+    width: 180px;
+    word-wrap: break-word;
+    padding-left:0px;
+    margin-right:30px;
+    min-height:500px;
+}
+
+#nav li a {
+    display: block;
+    padding: 10px 15px;
+    background: #E9E9E9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #999;
+    text-decoration: none;   
+}
+
+#inkthemes_wrap .ui-tabs .ui-tabs-nav li.active a {	
+    font-family: Georgia;
+    font-size: 17px;
+    /* background-color: #31a3dd;
+    color: #fff; */
+    background-color: #C9D2D6;
+    color: #130E0E;
+    border: 1px solid #C9D2D6;		
+}
+#inkthemes_wrap .ui-tabs {    
+    min-height:500px; 
+}
+.pro_feature_div{
+    width: 166%;
+    background: #eee;
+    border: 1px solid #ddd;
+    padding: 13px 10px 11px 10px;
+    text-decoration: none;
+}
+.pro_feature_div span{
+    float: right;
+    margin-top: -5px !important;
+}
+.controls a.pro_link{
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+}
+#container{
+	overflow:hidden;
+}
+@media only screen and (min-width: 1140px) and (max-width: 1352px) {
+.inkthemes_advert{
+width: 930px;
+margin-right: 0;
+}
+.theme_page{
+margin-right:0;
+width: 905px;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-demo{
+margin-left:0;
+}
+.theme-desc {
+width:605px;
+}
+}
+@media only screen and (min-width: 960px) and (max-width: 1140px) {
+.inkthemes_advert{
+width: 748px;
+margin-right: 0;
+}
+.theme_page{
+margin-right:0;
+width: 720px;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-demo{
+margin-left:0;
+}
+.theme-desc {
+width:420px;
+}
+}
+@media only screen and (max-width: 960px) {
+.inkthemes_advert{
+width: 96%;
+padding:2% 2%; 
+margin-right: 0;
+text-align: center;
+}
+.inkthemes_advert .inkthemes_block_wrapper{
+width:98%;
+}
+.inkthemes_advert .inkthemes_block.block_four{
+width:98%;
+}
+.theme_page{
+width: 96%;
+padding:2% 2%; 
+text-align:center;
+}
+.inkthemes_advert .inkthemes_block_wrapper .btn.btn-demo{
+margin-left:0;
+}
+.theme-image{
+width:100%;
+float:none;
+}
+.theme-desc {
+width:100%;
+float:none;
+}
+.inkthemes-admin-sidebar{
+	width:100%;
+}
+.theme-notification{
+	max-width:100%;
+}
+}

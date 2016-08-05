@@ -1,0 +1,993 @@
+# Copyright (C) 2012 Black Bird Theme 
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Black Bird Theme  1.0\n"
+"Report-Msgid-Bugs-To: admin@inkthemes.comPOT-Creation-Date: 2012-06-12 "
+"01:47:23+00:00\n"
+"POT-Creation-Date: 2015-08-28 15:25+0530\n"
+"PO-Revision-Date: 2015-08-28 15:37+0530\n"
+"Last-Translator: Urooj Khan <uroojkhan171@gmail.com>\n"
+"Language-Team: Inkthemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;_n_noop;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:38
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:12
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:44 author.php:59 blog.php:68 category.php:32 index.php:28
+#: search.php:41 tag.php:29
+msgid "&larr; Older posts"
+msgstr ""
+
+#: archive.php:46 author.php:61 blog.php:70 category.php:34 index.php:30
+#: search.php:43 tag.php:31
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: attachment.php:20
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:23
+#, php-format
+msgid "<span>&larr;</span> %s"
+msgstr ""
+
+#: attachment.php:27
+#, php-format
+msgid "By %2$s"
+msgstr ""
+
+#: attachment.php:33
+#, php-format
+msgid "Published %2$s"
+msgstr ""
+
+#: attachment.php:39
+#, php-format
+msgid "Full size is %s pixels"
+msgstr ""
+
+#: attachment.php:39
+msgid "Link to full-size image"
+msgstr ""
+
+#: attachment.php:44 attachment.php:91
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:88
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: attachment.php:89 loop.php:19 page.php:25 single.php:22
+msgid "Pages:"
+msgstr ""
+
+#: author.php:10
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:38
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: blog.php:43 loop.php:22 single.php:25
+msgid "Post Tagged with "
+msgstr ""
+
+#: blog.php:46 home.php:351 home.php:384 home.php:417 loop.php:25
+msgid "Read More"
+msgstr ""
+
+#: blog.php:49 loop.php:28 single.php:30
+msgid "Posted by"
+msgstr ""
+
+#: blog.php:50 loop.php:29 single.php:31
+msgid "Posted in"
+msgstr ""
+
+#: blog.php:62 loop.php:41 single.php:43
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: category.php:9
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:1
+msgid "so far."
+msgstr ""
+
+#: comments.php:1
+msgid "You must be"
+msgstr ""
+
+#: comments.php:1
+msgid "logged in"
+msgstr ""
+
+#: comments.php:1
+msgid "to post a comment."
+msgstr ""
+
+#: footer.php:31
+msgid "BlackBird Theme by InkThemes.com"
+msgstr ""
+
+#: functions/admin-functions.php:73
+msgid "This theme comes with an "
+msgstr ""
+
+#: functions/admin-functions.php:73
+msgid "options panel"
+msgstr ""
+
+#: functions/admin-functions.php:73
+msgid ""
+" to configure settings. This theme also supports widgets, please visit the "
+msgstr ""
+
+#: functions/admin-functions.php:73
+msgid "widgets settings page</a> to configure them."
+msgstr ""
+
+#: functions/admin-interface.php:23
+msgid "Theme Options"
+msgstr ""
+
+#: functions/admin-interface.php:83
+msgid "Get BlackBird Theme PRO!"
+msgstr ""
+
+#: functions/admin-interface.php:84
+msgid ""
+"You are Using the Lite Version of BlackBird Theme. Upgrade to Pro for extra "
+"features like Home Page Slider, Contact Page Template, Gallery Page "
+"Template, FullWidth Page Template, Multiple Color Options and much more."
+msgstr ""
+
+#: functions/admin-interface.php:85
+msgid "Upgrade to Black Bird Theme PRO Now >>"
+msgstr ""
+
+#: functions/admin-interface.php:90
+msgid "Options Updated"
+msgstr ""
+
+#: functions/admin-interface.php:93
+msgid "Options Reset"
+msgstr ""
+
+#: functions/admin-interface.php:99
+msgid "BlackBird Theme Options"
+msgstr ""
+
+#: functions/admin-interface.php:121
+msgid "Save All Changes"
+msgstr ""
+
+#: functions/admin-interface.php:125
+msgid "Reset Options"
+msgstr ""
+
+#: functions/admin-interface.php:125
+msgid "Click OK to reset. All settings will be lost!"
+msgstr ""
+
+#: functions/admin-interface.php:126
+msgid "reset"
+msgstr ""
+
+#: functions/blackbird-functions.php:28
+msgid "Main Menu"
+msgstr ""
+
+#: functions/blackbird-functions.php:49 functions/blackbird-functions.php:51
+msgid "Home"
+msgstr ""
+
+#: functions/blackbird-functions.php:138
+msgid "Page"
+msgstr ""
+
+#: functions/blackbird-functions.php:181
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions/blackbird-functions.php:183
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: functions/blackbird-functions.php:185
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: functions/blackbird-functions.php:215
+msgid "Primary Widget Area"
+msgstr ""
+
+#: functions/blackbird-functions.php:217
+msgid "The primary widget area"
+msgstr ""
+
+#: functions/blackbird-functions.php:225
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: functions/blackbird-functions.php:227
+msgid "The secondary widget area"
+msgstr ""
+
+#: functions/blackbird-functions.php:235
+msgid "First Footer Widget Area"
+msgstr ""
+
+#: functions/blackbird-functions.php:237
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions/blackbird-functions.php:245
+msgid "Second Footer Widget Area"
+msgstr ""
+
+#: functions/blackbird-functions.php:247
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions/blackbird-functions.php:255
+msgid "Third Footer Widget Area"
+msgstr ""
+
+#: functions/blackbird-functions.php:257
+msgid "The third footer widget area"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:52
+msgid "Install Recommended Plugins"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:53
+#: functions/plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:54
+#: functions/plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:55
+#: functions/plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:57
+#, php-format
+msgid ""
+"This theme recommends the following plugin to add lead form on landing page: "
+"%1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:60
+#: functions/plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:63
+#: functions/plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:66
+#: functions/plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:69
+#: functions/plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:72
+#: functions/plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:75
+#, php-format
+msgid ""
+"This theme recommends the following plugin to add lead form on landing page "
+"is currently inactive: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:78
+#: functions/plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:81
+#: functions/plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:84
+#: functions/plugin-activation.php:383
+msgid "Begin installing plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:87
+#: functions/plugin-activation.php:388
+msgid "Begin updating plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:90
+#: functions/plugin-activation.php:393
+msgid "Begin activating plugin"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:92
+#: functions/plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:93
+#: functions/plugin-activation.php:399 functions/plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:94
+#: functions/plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:95
+#: functions/plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:96
+#: functions/plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:97
+#: functions/plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/inkthemes-plugin-notify.php:98
+#: functions/plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions/plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: functions/plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: functions/plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: functions/plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/plugin-activation.php:1116 functions/plugin-activation.php:2828
+msgid "and"
+msgstr ""
+
+#: functions/plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: functions/plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: functions/plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: functions/plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: functions/plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: functions/plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: functions/plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: functions/plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: functions/plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: functions/plugin-activation.php:2438
+msgid "Type"
+msgstr ""
+
+#: functions/plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: functions/plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: functions/plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: functions/plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: functions/plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: functions/plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: functions/plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: functions/plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: functions/plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/theme-options.php:39
+msgid "General Settings"
+msgstr ""
+
+#: functions/theme-options.php:41
+msgid "Custom Logo"
+msgstr ""
+
+#: functions/theme-options.php:42
+msgid "Choose your own logo. Optimal Size: 221px Wide by 84px Height."
+msgstr ""
+
+#: functions/theme-options.php:45
+msgid "Home Page Top Right Cell Info"
+msgstr ""
+
+#: functions/theme-options.php:46
+msgid "Enter your text for home page top right cell info."
+msgstr ""
+
+#: functions/theme-options.php:50
+msgid "Home Page Top Right Contact Info"
+msgstr ""
+
+#: functions/theme-options.php:51
+msgid "Enter your text for home page top right contact info."
+msgstr ""
+
+#: functions/theme-options.php:55
+msgid "Custom Favicon"
+msgstr ""
+
+#: functions/theme-options.php:56
+msgid "Specify a 16px x 16px image that will represent your website's favicon."
+msgstr ""
+
+#: functions/theme-options.php:59
+msgid "Body Background Image"
+msgstr ""
+
+#: functions/theme-options.php:60
+msgid "Select image to change your website background"
+msgstr ""
+
+#: functions/theme-options.php:68
+msgid "Home Top Feature"
+msgstr ""
+
+#: functions/theme-options.php:71
+msgid "Home Top Feature Image"
+msgstr ""
+
+#: functions/theme-options.php:72
+msgid ""
+"Choose your image for first slider. Optimal size is 950px wide and 390px "
+"height."
+msgstr ""
+
+#: functions/theme-options.php:76
+msgid "Home Top Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:77
+msgid "Enter your text heading for first slider."
+msgstr ""
+
+#: functions/theme-options.php:81
+msgid "Home Top Feature Link URL"
+msgstr ""
+
+#: functions/theme-options.php:82
+msgid "Enter your link url for first Slider section."
+msgstr ""
+
+#: functions/theme-options.php:86
+msgid "Home Top Feature Description"
+msgstr ""
+
+#: functions/theme-options.php:87
+msgid "Enter your text description for first slider."
+msgstr ""
+
+#: functions/theme-options.php:94
+msgid "Homepage Settings"
+msgstr ""
+
+#: functions/theme-options.php:97
+msgid "Home Page Heading"
+msgstr ""
+
+#: functions/theme-options.php:98
+msgid "Enter your heading text for home page"
+msgstr ""
+
+#: functions/theme-options.php:102
+msgid "Home Page Feature Content"
+msgstr ""
+
+#: functions/theme-options.php:106
+msgid "First Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:107
+msgid "Enter your heading for first Feature area"
+msgstr ""
+
+#: functions/theme-options.php:111
+msgid "First Feature Image"
+msgstr ""
+
+#: functions/theme-options.php:112
+msgid "Choose image for your first Feature area. Optimal size 158px x 165px"
+msgstr ""
+
+#: functions/theme-options.php:116
+msgid "First Feature Content"
+msgstr ""
+
+#: functions/theme-options.php:121
+msgid "First Feature Link"
+msgstr ""
+
+#: functions/theme-options.php:122
+msgid "Enter your link for first Feature area"
+msgstr ""
+
+#: functions/theme-options.php:127
+msgid "Second Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:128
+msgid "Enter your heading for second Feature area"
+msgstr ""
+
+#: functions/theme-options.php:132
+msgid "Second Feature Image"
+msgstr ""
+
+#: functions/theme-options.php:133
+msgid "Choose image for your second Feature area. Optimal size 158px x 165px"
+msgstr ""
+
+#: functions/theme-options.php:137
+msgid "Second Feature Content"
+msgstr ""
+
+#: functions/theme-options.php:138
+msgid "Enter your content for second feature area"
+msgstr ""
+
+#: functions/theme-options.php:142
+msgid "Second Feature Link"
+msgstr ""
+
+#: functions/theme-options.php:143
+msgid "Enter your link for second Feature area"
+msgstr ""
+
+#: functions/theme-options.php:148
+msgid "Third Feature Heading"
+msgstr ""
+
+#: functions/theme-options.php:149
+msgid "Enter your heading for third Feature area"
+msgstr ""
+
+#: functions/theme-options.php:153
+msgid "Third Feature Image"
+msgstr ""
+
+#: functions/theme-options.php:154
+msgid "Choose image for your thrid Feature. Optimal size 158px x 165px"
+msgstr ""
+
+#: functions/theme-options.php:158
+msgid "Third Feature Content"
+msgstr ""
+
+#: functions/theme-options.php:159
+msgid "Enter your content for third Feature area"
+msgstr ""
+
+#: functions/theme-options.php:163
+msgid "Third Feature Link"
+msgstr ""
+
+#: functions/theme-options.php:164
+msgid "Enter your link for third feature area"
+msgstr ""
+
+#: functions/theme-options.php:171
+msgid "Social Logos"
+msgstr ""
+
+#: functions/theme-options.php:174
+msgid "Enter your Facebook URL if you have one"
+msgstr ""
+
+#: functions/theme-options.php:179
+msgid "Enter your Twitter URL if you have one"
+msgstr ""
+
+#: functions/theme-options.php:184
+msgid "Enter your LinkedIn URL if you have one"
+msgstr ""
+
+#: functions/theme-options.php:189
+msgid "Enter your RSS Feed URL if you have one"
+msgstr ""
+
+#: functions/theme-options.php:196
+msgid "Styling Options"
+msgstr ""
+
+#: functions/theme-options.php:198
+msgid "Custom CSS"
+msgstr ""
+
+#: functions/theme-options.php:199
+msgid "Quickly add some Custom CSS to your theme by adding it to this block."
+msgstr ""
+
+#: header.php:45
+msgid "21/B, London Campus, British Road, Birmingham, UK"
+msgstr ""
+
+#: header.php:55
+msgid "Pages Navigation Menu"
+msgstr ""
+
+#: home.php:57
+msgid ""
+"Premium WordPress Themes with Single Click Installation, Just a Click and "
+"your website is ready for use."
+msgstr ""
+
+#: home.php:314
+msgid ""
+"Black Bird Theme is one of the easiest theme to built your website. Easy "
+"website management through Options Panel ."
+msgstr ""
+
+#: home.php:340
+msgid "Fully Responsive WordPress Theme"
+msgstr ""
+
+#: home.php:345
+msgid ""
+"Blackbird  is a unique responsive WordPress theme. The theme design is "
+"fabulous enough giving your visitors the absolute reason to stay on your "
+"site."
+msgstr ""
+
+#: home.php:373
+msgid "Easy Website Customization "
+msgstr ""
+
+#: home.php:378
+msgid ""
+"You will definitely love the Theme. The speciality of the Theme is the "
+"easiness through which you can get the site ready for yourself or your "
+"client. "
+msgstr ""
+
+#: home.php:406
+msgid "Stylish Color Schemes"
+msgstr ""
+
+#: home.php:411
+msgid ""
+"Easily controls the look and feel of your whole website and over 10+ stylish "
+"color schemes gives your website a <br/>fresh new look. "
+msgstr ""
+
+#: search.php:10
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:26
+msgid "Nothing Found"
+msgstr ""
+
+#: search.php:32
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searchform.php:6 searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: sidebar-footer.php:6
+msgid "ABOUT YOUR BUSINESS"
+msgstr ""
+
+#: sidebar-footer.php:7
+msgid ""
+"Premium WordPress Themes with Single Click Installation, Just a Click and "
+"your website is ready for use. Your Site is faster to built, easy to use & "
+"Search Engine Optimized."
+msgstr ""
+
+#: sidebar-footer.php:9
+msgid ""
+"If your looking for help with our themes this is the place to be. We have a "
+"ton of great videos that show you how to setup our themes. And every theme "
+"comes with PDF & Video Documentation to help with almost any issue."
+msgstr ""
+
+#: sidebar-footer.php:18
+msgid "SOCIAL LINK"
+msgstr ""
+
+#: sidebar-footer.php:26
+msgid "&nbsp;&nbsp;Join Us On Facebook"
+msgstr ""
+
+#: sidebar-footer.php:33
+msgid "&nbsp;&nbsp;Join Us On Twitter"
+msgstr ""
+
+#: sidebar-footer.php:40
+msgid "&nbsp;&nbsp;Join Us On In.com"
+msgstr ""
+
+#: sidebar-footer.php:47
+msgid "&nbsp;&nbsp;Subscribe to Our Blog"
+msgstr ""
+
+#: sidebar-footer.php:57
+msgid "FOOTER SETUP"
+msgstr ""
+
+#: sidebar-footer.php:58
+msgid ""
+"Footer is widgetized. To setup the footer, drag the required Widgets in "
+"Appearance -> Widgets Tab in the First, Second or Third Footer Widget Areas."
+msgstr ""
+
+#: sidebar.php:5
+msgid "Categories"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Archives"
+msgstr ""
+
+#: single.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Post "
+msgstr ""
+
+#: single.php:51
+msgid "Next Post <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: tag.php:13
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
