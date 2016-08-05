@@ -7,23 +7,23 @@
  */
 /* Template Name: GetAllUsers */
 get_header();
-
 //get all users
 $aUsers = get_users();
 
+//var_dump(bloginfo('template_url'));
 ?>
 <div class="row">
 	<div class="col-md-12 text-left">
 		<h1>User List</h1>
 	</div>
 	<div class="col-md-12">
-		<table class="table table-bordered table-hover table-responsive">
+		<table id="UserTable" class="table table-bordered table-hover table-responsive tablesorter">
 			<thead>
-			<th class="text-center"><b>User Id</b></th>
-			<th class="text-center"><b>Username</b></th>
-			<th class="text-center"><b>Email</b></th>
-			<th class="text-center"><b>Date Registered</b></th>
-			<th class="text-center"><b>Role</b></th>
+			<th class="text-center pointer"><b>User Id</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center pointer"><b>Username</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center pointer"><b>Email</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center pointer"><b>Date Registered</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center pointer"><b>Role</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			</thead>
 			<tbody>
 			<?php
@@ -43,3 +43,11 @@ $aUsers = get_users();
 	</div>
 </div>
 
+<script>
+	$.noConflict();
+	$(document).ready(function () {
+			$("#UserTable").tablesorter();
+		}
+	);
+
+</script>

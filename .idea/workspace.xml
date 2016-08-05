@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b8a26a7-c20e-49d7-bacc-70f6bb2a139b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-latest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.tablesorter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GetAllUsers.php" afterPath="$PROJECT_DIR$/GetAllUsers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
     </list>
     <ignored path="blackbird.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,15 +43,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="GetAllUsers.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GetAllUsers.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GetAllUsers.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.53968257">
-                  <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+                <state vertical-scroll-proportion="-11.346154">
+                  <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
                   <folding>
                     <element signature="e#6#96#0#PHP" expanded="true" />
-                    <marker date="1470370301206" expanded="true" signature="1142:1195" placeholder="..." />
+                    <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+                    <marker date="1470376377923" expanded="true" signature="1476:1529" placeholder="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/custom.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.029982364">
+                  <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -76,11 +92,36 @@
           <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.653846">
-                  <caret line="76" column="90" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+                <state vertical-scroll-proportion="-11.115385">
+                  <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
                   <folding>
                     <element signature="e#6#125#0#PHP" expanded="true" />
                     <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="general-template.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../../wp-includes/general-template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-11.192307">
+                  <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
+                  <folding>
+                    <marker date="1459329628000" expanded="true" signature="28381:28394" placeholder="..." />
+                    <marker date="1459329628000" expanded="true" signature="54396:54578" placeholder="SELECT YEAR(... " />
+                    <marker date="1459329628000" expanded="true" signature="55470:55605" placeholder="SELECT YEAR(... " />
+                    <marker date="1459329628000" expanded="true" signature="56370:56614" placeholder="SELECT YEAR(... " />
+                    <marker date="1459329628000" expanded="true" signature="57585:57823" placeholder="SELECT DISTI... " />
+                    <marker date="1459329628000" expanded="true" signature="59259:59317" placeholder="SELECT * FRO... wp_posts" />
+                    <marker date="1459329628000" expanded="true" signature="61620:61715" placeholder="SELECT 1 as wp_posts" />
+                    <marker date="1459329628000" expanded="true" signature="62953:63167" placeholder="SELECT MONTH... " />
+                    <marker date="1459329628000" expanded="true" signature="63196:63427" placeholder="SELECT MONTH... " />
+                    <marker date="1459329628000" expanded="true" signature="63603:63744" placeholder="..." />
+                    <marker date="1459329628000" expanded="true" signature="63738:63744" placeholder="..." />
+                    <marker date="1459329628000" expanded="true" signature="64189:64195" placeholder="..." />
+                    <marker date="1459329628000" expanded="true" signature="64998:65004" placeholder="..." />
+                    <marker date="1459329628000" expanded="true" signature="65097:65332" placeholder="SELECT DISTI... wp_posts" />
                   </folding>
                 </state>
               </provider>
@@ -122,10 +163,82 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="page.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/../../../wp-admin/users.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.12639405">
+                  <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#13682#17759#0#PHP" expanded="false" />
+                    <marker date="1457521790000" expanded="true" signature="7634:7728" placeholder="SELECT ID FR... $" />
+                    <marker date="1457521790000" expanded="true" signature="7795:7893" placeholder="SELECT link_... $" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../../wp-admin/includes/user.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-7.269231">
+                  <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#8547#8714#0#PHP" expanded="false" />
+                    <element signature="n#get_user_to_edit#0;n#!!top" expanded="false" />
+                    <element signature="e#8850#9023#0#PHP" expanded="false" />
+                    <element signature="n#get_users_drafts#0;n#!!top" expanded="false" />
+                    <element signature="e#9490#10100#0#PHP" expanded="false" />
+                    <element signature="n#wp_delete_user#0;n#!!top" expanded="false" />
+                    <element signature="n#wp_revoke_user#0;n#!!top" expanded="false" />
+                    <element signature="e#13682#13771#0#PHP" expanded="false" />
+                    <element signature="n#default_password_nag_handler#0;n#!!top" expanded="false" />
+                    <element signature="n#default_password_nag_edit_user#0;n#!!top" expanded="false" />
+                    <element signature="n#default_password_nag#0;n#!!top" expanded="false" />
+                    <element signature="n#delete_users_add_js#0;n#!!top" expanded="false" />
+                    <element signature="n#use_ssl_preference#0;n#!!top" expanded="false" />
+                    <element signature="n#admin_created_user_email#0;n#!!top" expanded="false" />
+                    <marker date="1458659248000" expanded="true" signature="9105:9244" placeholder="SELECT ID, p... wp_posts" />
+                    <marker date="1458659248000" expanded="true" signature="11670:11763" placeholder="SELECT ID FR... wp_posts" />
+                    <marker date="1458659248000" expanded="true" signature="11933:11987" placeholder="SELECT link_... wp_links" />
+                    <marker date="1458659248000" expanded="true" signature="12148:12198" placeholder="SELECT ID FR... wp_posts" />
+                    <marker date="1458659248000" expanded="true" signature="12460:12514" placeholder="SELECT link_... wp_links" />
+                    <marker date="1458659248000" expanded="true" signature="12893:12948" placeholder="SELECT umeta... wp_usermeta" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user-new.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-new.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="7.8461537">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1456321766000" expanded="true" signature="5580:5665" placeholder="SELECT activ... $" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user-edit.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-edit.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="31.384615">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <marker date="1459320266000" expanded="true" signature="3977:4038" placeholder="SELECT user_... $" />
+                    <marker date="1459320266000" expanded="true" signature="4109:4174" placeholder="UPDATE ${{$w... " />
+                    <marker date="1459320266000" expanded="true" signature="5821:5882" placeholder="SELECT user_... $" />
+                    <marker date="1459320266000" expanded="true" signature="5944:6009" placeholder="UPDATE ${{$w... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45502645">
+                <state vertical-scroll-proportion="-9.923077">
                   <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
                   <folding>
                     <element signature="e#6#265#0#PHP" expanded="true" />
@@ -137,6 +250,13 @@
         </leaf>
       </split-second>
     </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,6 +275,7 @@
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/GetAllUsers.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -270,6 +391,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackbird" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackbird" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackbird" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blackbird" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -291,6 +464,12 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.22309197" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\wordpress\wp-content\themes\blackbird\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -336,14 +515,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20469083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.49573562" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32792208" sideWeight="0.4936034" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -392,70 +571,12 @@
     <wordpressPath>C:\wamp64\www\wordpress</wordpressPath>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/custompage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GetAllUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#6#96#0#PHP" expanded="true" />
-            <marker date="1470370301206" expanded="true" signature="1142:1195" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserControlPanel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#96#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#6#125#0#PHP" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="4" selection-end-line="15" selection-end-column="10" />
-          <folding>
-            <element signature="e#226#298#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -520,7 +641,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#96#0#PHP" expanded="true" />
-            <marker date="1470370301206" expanded="true" signature="1142:1195" placeholder="..." />
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1470376377923" expanded="true" signature="1476:1529" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -742,11 +864,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45502645">
+        <state vertical-scroll-proportion="-9.923077">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
           <folding>
             <element signature="e#6#265#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user/user-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,11 +906,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-new.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="88" column="47" selection-start-line="88" selection-start-column="47" selection-end-line="88" selection-end-column="47" />
+        <state vertical-scroll-proportion="7.8461537">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456321766000" expanded="true" signature="5580:5665" placeholder="SELECT activ... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/user-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="31.384615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459320266000" expanded="true" signature="3977:4038" placeholder="SELECT user_... $" />
+            <marker date="1459320266000" expanded="true" signature="4109:4174" placeholder="UPDATE ${{$w... " />
+            <marker date="1459320266000" expanded="true" signature="5821:5882" placeholder="SELECT user_... $" />
+            <marker date="1459320266000" expanded="true" signature="5944:6009" placeholder="UPDATE ${{$w... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/includes/user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.269231">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
+          <folding>
+            <element signature="e#8547#8714#0#PHP" expanded="false" />
+            <element signature="n#get_user_to_edit#0;n#!!top" expanded="false" />
+            <element signature="e#8850#9023#0#PHP" expanded="false" />
+            <element signature="n#get_users_drafts#0;n#!!top" expanded="false" />
+            <element signature="e#9490#10100#0#PHP" expanded="false" />
+            <element signature="n#wp_delete_user#0;n#!!top" expanded="false" />
+            <element signature="n#wp_revoke_user#0;n#!!top" expanded="false" />
+            <element signature="e#13682#13771#0#PHP" expanded="false" />
+            <element signature="n#default_password_nag_handler#0;n#!!top" expanded="false" />
+            <element signature="n#default_password_nag_edit_user#0;n#!!top" expanded="false" />
+            <element signature="n#default_password_nag#0;n#!!top" expanded="false" />
+            <element signature="n#delete_users_add_js#0;n#!!top" expanded="false" />
+            <element signature="n#use_ssl_preference#0;n#!!top" expanded="false" />
+            <element signature="n#admin_created_user_email#0;n#!!top" expanded="false" />
+            <marker date="1458659248000" expanded="true" signature="9105:9244" placeholder="SELECT ID, p... wp_posts" />
+            <marker date="1458659248000" expanded="true" signature="11670:11763" placeholder="SELECT ID FR... wp_posts" />
+            <marker date="1458659248000" expanded="true" signature="11933:11987" placeholder="SELECT link_... wp_links" />
+            <marker date="1458659248000" expanded="true" signature="12148:12198" placeholder="SELECT ID FR... wp_posts" />
+            <marker date="1458659248000" expanded="true" signature="12460:12514" placeholder="SELECT link_... wp_links" />
+            <marker date="1458659248000" expanded="true" signature="12893:12948" placeholder="SELECT umeta... wp_usermeta" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12639405">
+          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+          <folding>
+            <element signature="e#13682#17759#0#PHP" expanded="false" />
+            <marker date="1457521790000" expanded="true" signature="7634:7728" placeholder="SELECT ID FR... $" />
+            <marker date="1457521790000" expanded="true" signature="7795:7893" placeholder="SELECT link_... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.flexslider-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-latest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/widgets/class-wp-widget-categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16754851">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/jetpack/modules/notes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.45679">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../plugins/jetpack/modules/stats.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.518518">
+          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#376#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/link-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07760141">
+          <caret line="579" column="9" selection-start-line="579" selection-start-column="9" selection-end-line="579" selection-end-column="9" />
+          <folding>
+            <marker date="1457603306000" expanded="true" signature="51927:51975" placeholder="SELECT p.ID wp_posts" />
+            <marker date="1457603306000" expanded="true" signature="79439:79526" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.192307">
+          <caret line="671" column="31" selection-start-line="671" selection-start-column="31" selection-end-line="671" selection-end-column="31" />
+          <folding>
+            <marker date="1459329628000" expanded="true" signature="28381:28394" placeholder="..." />
+            <marker date="1459329628000" expanded="true" signature="54396:54578" placeholder="SELECT YEAR(... " />
+            <marker date="1459329628000" expanded="true" signature="55470:55605" placeholder="SELECT YEAR(... " />
+            <marker date="1459329628000" expanded="true" signature="56370:56614" placeholder="SELECT YEAR(... " />
+            <marker date="1459329628000" expanded="true" signature="57585:57823" placeholder="SELECT DISTI... " />
+            <marker date="1459329628000" expanded="true" signature="59259:59317" placeholder="SELECT * FRO... wp_posts" />
+            <marker date="1459329628000" expanded="true" signature="61620:61715" placeholder="SELECT 1 as wp_posts" />
+            <marker date="1459329628000" expanded="true" signature="62953:63167" placeholder="SELECT MONTH... " />
+            <marker date="1459329628000" expanded="true" signature="63196:63427" placeholder="SELECT MONTH... " />
+            <marker date="1459329628000" expanded="true" signature="63603:63744" placeholder="..." />
+            <marker date="1459329628000" expanded="true" signature="63738:63744" placeholder="..." />
+            <marker date="1459329628000" expanded="true" signature="64189:64195" placeholder="..." />
+            <marker date="1459329628000" expanded="true" signature="64998:65004" placeholder="..." />
+            <marker date="1459329628000" expanded="true" signature="65097:65332" placeholder="SELECT DISTI... wp_posts" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -780,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.653846">
-          <caret line="76" column="90" selection-start-line="76" selection-start-column="90" selection-end-line="76" selection-end-column="90" />
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
           <folding>
             <element signature="e#6#125#0#PHP" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -791,12 +1079,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GetAllUsers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53968257">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state vertical-scroll-proportion="-11.346154">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
           <folding>
             <element signature="e#6#96#0#PHP" expanded="true" />
-            <marker date="1470370301206" expanded="true" signature="1142:1195" placeholder="..." />
+            <element signature="n#div#0;n#div#0;n#!!top" expanded="false" />
+            <marker date="1470376377923" expanded="true" signature="1476:1529" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029982364">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

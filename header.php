@@ -10,6 +10,13 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html <?php language_attributes(); ?>>
 <head>
+	<script src="https://code.jquery.com/jquery-2.2.4.js"
+	        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery-latest.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+	      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/custom.css">
 	<meta charset="<?php bloginfo( 'charset' ); ?>"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<link rel="profile" href="http://gmpg.org/xfn/11"/>
