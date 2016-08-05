@@ -23,6 +23,7 @@ $aUsers = get_users();
 			<th class="text-center pointer"><b>Email</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			<th class="text-center pointer"><b>Date Registered</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			<th class="text-center pointer"><b>Role</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center"><b>Options</b></th>
 			</thead>
 			<tbody>
 			<?php
@@ -34,6 +35,9 @@ $aUsers = get_users();
 				echo '<td>' . esc_html( $user->data->user_email ) . '</td>';
 				echo '<td>' . esc_html( $user->data->user_registered ) . '</td>';
 				echo '<td>' . esc_html( ucfirst( $user->roles[0] ) ) . '</td>';
+				echo '<td> <a class="btn btn-info" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>  Edit User</a>
+						<a class="btn btn-danger" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Delete User</a>
+					</td>';
 				echo '<tr>';
 			}
 			?>
