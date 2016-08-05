@@ -8,12 +8,8 @@
 /* Template Name: GetAllUsers */
 get_header();
 
+//get all users
 $aUsers = get_users();
-
-
-foreach ( $aUsers as $user ) {
-//	var_dump( $user->roles[0]);
-}
 
 ?>
 <div class="row">
@@ -32,6 +28,7 @@ foreach ( $aUsers as $user ) {
 			<tbody>
 			<?php
 			foreach ( $aUsers as $user ) {
+				//populate users
 				echo '<tr class="' . ( $user->roles[0] == "administrator" ? 'info' : 'warning' ) . '">';
 				echo '<td>' . esc_html( $user->data->ID ) . '</td>';
 				echo '<td>' . esc_html( ucfirst( $user->data->user_login ) ) . '</td>';
