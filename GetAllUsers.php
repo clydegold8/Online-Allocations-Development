@@ -10,7 +10,6 @@ get_header();
 //get all users
 $aUsers = get_users();
 
-//var_dump(bloginfo('template_url'));
 ?>
 <div class="row">
 	<div class="col-md-12 text-left">
