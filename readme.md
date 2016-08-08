@@ -1,4 +1,4 @@
-## Online Allocations Project + PHP / MYSQL
+## Online Allocations Project Wordpress + PHP / MYSQL
 
 [![GitHub version](https://badge.fury.io/gh/clydegold8%2FOnline-Allocations-Development.svg?ts=2)](https://badge.fury.io/gh/clydegold8%2FOnline-Allocations-Development)
 [![Build Status](https://travis-ci.org/clydegold8/Online-Allocations-Development.svg?branch=master)](https://travis-ci.org/clydegold8/Online-Allocations-Development)
