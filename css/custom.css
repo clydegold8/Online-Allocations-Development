@@ -1,3 +1,10 @@
 .pointer{
     cursor: pointer;
 }
+.bg-checkbx{
+    /*background-color: #5bc0de !important;*/
+    /*visibility: hidden;*/
+}
+.icon-bx:before {
+    color: #a94442;
+}
