@@ -1,50 +1,46 @@
 /**
  * Created by VIZI-BILL PH on Aug-8-2016.
  */
+
 //	added table sorter
-$.noConflict();//avoid $ confilct to other scripts
+
 $(document).ready(function () {
 
-    //activate table sorter
-    $("#UserTable").tablesorter();
-
-
-    //bootbox feature - add user - validate forms
-    $('.add-user').click(function () {
+    var $ = jQuery;
+    $('#user-form').submit(function (e) {
+        e.preventDefault();
         var $sErrorPassword,
             $bErrorStatus,
-            $dUserForm = $('#user-form').serialize();
             $sUsernameData = $('#username'),
             $sEmailData = $('#email'),
             $sPasswordData = $('#password'),
             $sPasswordData_c = $('#password_c'),
-            $sUsername = ($sUsernameData.val()) ? $sUsernameData.val() : null,
-            $sPassword = ($sPasswordData.val()) ? $sPasswordData.val() : null,
-            $sPassword_c = ($sPasswordData_c.val()) ? $sPasswordData_c.val() : null,
-            $sEmail = ($sEmailData.val()) ? $sEmailData.val() : null,
-            $bPassword = ($sPassword == $sPassword_c);
+            $submit = $('.user-form #submit'),
+            $sUsername = (this.username.value) ? this.username.value : null,
+            $sPassword = (this.password.value) ? this.password.value : 'empty',
+            $sPassword_c = (this.password_c.value) ? this.password_c.value : 'empty_c',
+            $sEmail = (this.email.value) ? this.email.value : null,
+            $bPassword = ($sPassword == $sPassword_c),
+            data = {
+                action: 'user_registration',
+                nonce: this.rs_user_registration_nonce.value,
+                username: $sUsername,
+                password: $sPassword,
+                role: this.user_roles.value,
+                email: $sEmail
+            };
 
 
-        if(($sUsername)&&($sPassword)&&($sEmail)){
+        // disable button onsubmit to avoid double submision
+        $submit.attr("disabled", "disabled").addClass('disabled');
 
-            //$.ajax({
-            //    type: "POST",
-            //    url: "/wordpress/addusers/",
-            //    data: $dUserForm,
-            //    dataType: "json",
-            //    success: function(data) {
-            //        //var obj = jQuery.parseJSON(data); if the dataType is not specified as json uncomment this
-            //        // do what ever you want with the server response
-            //    },
-            //    error: function() {
-            //        alert('error handing here');
-            //    }
-            //});
-            //document.getElementById("user-form").reset();
-            //$('#myModal').modal('hide');
-            //$('.modal-backdrop').remove();
-            //console.log('passed',$sUsername,$sPassword,$sEmail);
+        //check email if invalid or valid
+        function validateEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
         }
+
+        var $bEmail = validateEmail($sEmail);
 
         //check username
         if (!$sUsername) {
@@ -63,12 +59,7 @@ $(document).ready(function () {
             $('.bg-checkbx-username').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-username" aria-hidden="true"></i>');
         }
 
-        //check email if invalid or valid
-        function validateEmail(email) {
-            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            return re.test(email);
-        }
-        var $bEmail = validateEmail($sEmail);
+        //check email
         if (!$sEmail || (!$bEmail)) {
             var $sErrorEmail;
             $sErrorEmail = 'Email field should not be empty or Invalid.';
@@ -88,7 +79,7 @@ $(document).ready(function () {
         }
 
         //check password if both fields are empty
-        if (!$sPassword || (!$sPassword_c)) {
+        if (($sPassword == 'empty') || ($sPassword_c == "empty_c")) {
             $sErrorPassword = 'Password fields should not be empty.';
             $bErrorStatus = false;
             errorPassword($sErrorPassword, $bErrorStatus);
@@ -116,7 +107,7 @@ $(document).ready(function () {
                 $('.bg-checkbx-password').css("background-color", "#f2dede").append('<i class="fa fa-times icon-bx-password" aria-hidden="true"></i>');
                 $('.bg-checkbx-password_c').css("background-color", "#f2dede").append('<i class="fa fa-times icon-bx-password_c" aria-hidden="true"></i>');
 
-            }else{
+            } else {
                 $('.password-bx').addClass('has-success').removeClass('has-error');
                 $('.password_c-bx').addClass('has-success').removeClass('has-error');
                 $('#helpBlock-password').text($sErrorPassword);
@@ -128,12 +119,34 @@ $(document).ready(function () {
             }
         }
 
+        if (($sUsername) && ($bPassword) && ($sEmail)) {
 
+            $.post(theme_ajax.url, data, function (response) {
 
-
-        //$('#myModal').modal('hide');
-        //$('.modal-backdrop').remove();
-        //alert('aws');
+                // check response data
+                if (1 == response) {
+                    // redirect to home page
+                    $('#helpBlock-status').append("<p class='text-success'> <b>User Successfully Added!.</b></p>");
+                } else {
+                    $('#helpBlock-status').append(response);
+                    // display return data
+                }
+            });
+        }
+        $('this').off("submit");
+        document.getElementById("user-form").reset();
+        $('.form-group').removeClass('has-error');
+        $('.help-block').text("");
+        $('.icon-bx-password').hide();
+        $('.icon-bx-password_c').hide();
+        $('.icon-bx-email').hide();
+        $('.icon-bx-username').hide();
+        $('.bg-checkbx-password').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-password" aria-hidden="true"></i>');
+        $('.bg-checkbx-password_c').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-password_c" aria-hidden="true"></i>');
+        $('.bg-checkbx-email').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-username" aria-hidden="true"></i>');
+        $('.bg-checkbx-username').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-username" aria-hidden="true"></i>');
+        location.reload();
+        return true;
     });
 
 });

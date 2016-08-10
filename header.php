@@ -12,12 +12,13 @@
 <head>
 	<script src="https://code.jquery.com/jquery-2.2.4.js"
 	        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/TableUserSorter.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 	        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 	        crossorigin="anonymous"></script>
 	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/bootbox.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery.tablesorter.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo( 'template_url' ); ?>/js/jquery-latest.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
 	      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">

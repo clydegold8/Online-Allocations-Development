@@ -25,7 +25,8 @@ $aUsers = get_users();
 			<th class="text-center pointer"><b>User Id</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			<th class="text-center pointer"><b>Username</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			<th class="text-center pointer"><b>Email</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
-			<th class="text-center pointer"><b>Date Registered</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
+			<th class="text-center pointer"><b>Date Registered</b> <i class="fa fa-sort" aria-hidden="true"></i>
+			</th>
 			<th class="text-center pointer"><b>Role</b> <i class="fa fa-sort" aria-hidden="true"></i></th>
 			<th class="text-center"><b>Options</b></th>
 			</thead>
@@ -57,12 +58,21 @@ $aUsers = get_users();
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
 						aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user-plus" aria-hidden="true"></i> Add Users
+				<h4 class="modal-title" id="myModalLabel"><i class="fa fa-user-plus" aria-hidden="true"></i> Add
+					Users
 				</h4>
 			</div>
-			<div class="modal-body">
-				<form id="user-form">
-					<small class="text-warning"><p><b>Required field are those who have asterisk (*).</b></p></small>
+			<form method="post" class="user-form" id="user-form">
+				<div class="modal-body">
+
+					<?php
+					// to make our script safe, it's a best practice to use nonce on our form to check things out
+					if ( function_exists( 'wp_nonce_field' ) ) {
+						wp_nonce_field( 'rs_user_registration_action', 'rs_user_registration_nonce' );
+					}
+					?>
+					<small class="text-warning"><p><b>Required field are those who have asterisk (*).</b></p>
+					</small>
 					<div class="form-group username-bx">
 						<label for="exampleInputEmail1">User Name</label>
 						<div class="input-group">
@@ -93,20 +103,31 @@ $aUsers = get_users();
 						<span id="helpBlock-password" class="help-block"></span>
 					</div>
 					<div class="form-group password_c-bx">
-						<label for="exampleInputPassword1">Re type Password</label>
+						<label for="exampleInputPassword1">Confirm Password</label>
 						<div class="input-group">
-							<input type="password" class="form-control" id="password_c" placeholder="Password">
+							<input type="password" name="password_c" class="form-control" id="password_c"
+							       placeholder="Password">
 							<span class="input-group-addon bg-checkbx-password_c" id="sizing-addon2"><i
 									class="fa fa-asterisk icon-bx icon-bx-password_c" aria-hidden="true"></i></span>
 						</div>
 						<span id="helpBlock-password_c" class="help-block"></span>
 					</div>
-				</form>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-info add-user">Add User</button>
-			</div>
+
+					<div class="form-group">
+						<label for="user_roles">Select Role</label>
+						<select class="form-control" name="user_roles" id="user_roles">
+							<option value="client">Client</option>
+							<option value="administrator">Administrator</option>
+						</select>
+					</div>
+
+					<span id="helpBlock-status" class="help-block"></span>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-danger" data-dismiss="modal" href="#">Close</a>
+					<input type="submit" id="submit" class="btn btn-info add-user" value="Add User"/>
+				</div>
+			</form>
 		</div>
 	</div>
 </div>
