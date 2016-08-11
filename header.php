@@ -87,10 +87,13 @@
 				</div>
 				<div class="grid_6 omega">
 					<div class="top-search">
-						<p style="color: #ffffff; padding: 13px;font-size: 20px;">Welcome,
-							<b><?php $current_user = wp_get_current_user();
-								echo ucfirst( $current_user->data->user_login ); ?></b> !!</p>
-						<?php //get_search_form(); ?>
+
+						<b><?php $current_user = wp_get_current_user();
+							if ( $current_user->ID ) {
+								echo '<p style="color: #ffffff; padding: 13px;font-size: 20px;">Welcome,' . ucfirst( $current_user->data->user_login ) . '</b> !!</p>';
+							}
+							?>
+							<?php //get_search_form(); ?>
 					</div>
 				</div>
 			</div>

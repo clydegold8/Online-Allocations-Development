@@ -30,6 +30,7 @@ function blackbird_wp_enqueue_scripts() {
 }
 
 //add custom add user
+add_action( 'wp_ajax_user_delete', 'rs_user_delete_callback' );
 add_action( 'wp_ajax_user_registration', 'rs_user_registration_callback' );
 add_action( 'wp_enqueue_scripts', 'blackbird_wp_enqueue_scripts' );
 
@@ -87,6 +88,36 @@ function rs_user_registration_callback() {
 	}
 	// return proper result
 
+}
+
+/*
+ *    @desc    delete user
+ */
+function rs_user_delete_callback() {
+
+	global $wpdb; // access wp_backend
+
+	$user_id = $_POST["user_id"];
+
+	if ( ! $user_id ) {
+		$error = "Error on deletion. User not Exist try again later.";
+		echo $error;
+	}
+
+	try {
+		$bStatus = wp_delete_user( $user_id );
+		if ( ! $bStatus ) {
+			echo false;
+		} else {
+			echo true;
+		}
+
+	} catch ( Exception $e ) {
+		$error = "Error on deletion. Try again later.";
+		echo $error;
+	}
+
+	die();
 }
 
 

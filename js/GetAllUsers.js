@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 
         // disable button onsubmit to avoid double submision
-        $submit.attr("disabled", "disabled").addClass('disabled');
+        //$submit.attr("disabled", "disabled").addClass('disabled');
 
         //check email if invalid or valid
         function validateEmail(email) {
@@ -126,27 +126,31 @@ $(document).ready(function () {
                 // check response data
                 if (1 == response) {
                     // redirect to home page
+
+                    AfterSubmit();
+
                     $('#helpBlock-status').append("<p class='text-success'> <b>User Successfully Added!.</b></p>");
+                    //location.reload();
                 } else {
                     $('#helpBlock-status').append(response);
                     // display return data
                 }
             });
         }
-        $('this').off("submit");
         document.getElementById("user-form").reset();
-        $('.form-group').removeClass('has-error');
-        $('.help-block').text("");
-        $('.icon-bx-password').hide();
-        $('.icon-bx-password_c').hide();
-        $('.icon-bx-email').hide();
-        $('.icon-bx-username').hide();
-        $('.bg-checkbx-password').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-password" aria-hidden="true"></i>');
-        $('.bg-checkbx-password_c').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-password_c" aria-hidden="true"></i>');
-        $('.bg-checkbx-email').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-username" aria-hidden="true"></i>');
-        $('.bg-checkbx-username').css("background-color", "#dff0d8").append('<i class="fa fa-check icon-bx-username" aria-hidden="true"></i>');
-        location.reload();
-        return true;
+        function AfterSubmit(){
+            $('.form-group').removeClass('has-error has-success').addClass('has-default');
+            $('.help-block').text("");
+            $('.icon-bx-password').hide();
+            $('.icon-bx-password_c').hide();
+            $('.icon-bx-email').hide();
+            $('.icon-bx-username').hide();
+            $('.bg-checkbx-password').css("background-color", "#dff0d8").append('<i class="fa fa-asterisk icon-bx-password" aria-hidden="true"></i>');
+            $('.bg-checkbx-password_c').css("background-color", "#dff0d8").append('<i class="fa fa-asterisk icon-bx-password_c" aria-hidden="true"></i>');
+            $('.bg-checkbx-email').css("background-color", "#dff0d8").append('<i class="fa fa-asterisk icon-bx-username" aria-hidden="true"></i>');
+            $('.bg-checkbx-username').css("background-color", "#dff0d8").append('<i class="fa fa-asterisk icon-bx-username" aria-hidden="true"></i>');
+        }
+        return false;
     });
 
 });
