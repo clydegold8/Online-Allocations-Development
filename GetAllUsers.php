@@ -34,14 +34,14 @@ $aUsers = get_users();
 			<?php
 			foreach ( $aUsers as $user ) {
 				//populate users
-				echo '<tr data-user_table="'.$user->data->ID.'" class="' . ( $user->roles[0] == "administrator" ? 'info' : 'warning' ) . '">';
+				echo '<tr data-user_table="' . $user->data->ID . '" class="' . ( $user->roles[0] == "administrator" ? 'info' : 'warning' ) . '">';
 				echo '<td>' . esc_html( $user->data->ID ) . '</td>';
 				echo '<td>' . esc_html( ucfirst( $user->data->user_login ) ) . '</td>';
 				echo '<td>' . esc_html( $user->data->user_email ) . '</td>';
 				echo '<td>' . esc_html( $user->data->user_registered ) . '</td>';
 				echo '<td>' . esc_html( ucfirst( $user->roles[0] ) ) . '</td>';
 				echo '<td> <a class="btn btn-info" href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>  Edit User</a>
-						<a data-id="'.$user->data->ID.'" class="btn btn-danger delete_user" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Delete User</a>
+						<a data-id="' . $user->data->ID . '" class="btn btn-danger delete_user" href="#"><i class="fa fa-trash" aria-hidden="true"></i> Delete User</a>
 					</td>';
 				echo '<tr>';
 			}
